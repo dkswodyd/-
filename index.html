@@ -1,58 +1,110 @@
-<!DOCTYPE html>
 <html>
-<head><title>로그인 폼</title></head>
+<head>
+    <title> 정보과학 </title>
+</head>
 <body>
-<h3>로그인 폼</h3>
+    <h1 title ="예제 3 입니다."> 예제 2 </h1>
+    <h2> 예제 2 </h2>
+    <h3>개발자의 포맷 그대로 출력하기</h3>
+    <hr>
+    <p>
+     &lt;p&gt; 태그를 사용하면
+     여러 개의 빈 칸은 하나로,
+     여러 줄은 한 줄에 붙여 출력됩니다.</p>
 <hr>
-<form name="fo" method="get">
-사용자 ID : <input type="text" size="15" value=""><br>
-비밀 번호 : <input type="password" size="15" value="">
+<pre>
+그러나 &lt;pre&gt; 태그를 사용하면
+사용자가 입력한
+그대로 출력됩니다.
+</pre> </h3>
+    <h4> 예제 2 </h4>
+    <h5> 예제 2 </h5>
+    <h6> 예제 2 </h6>
 
-<input type="submit" value="확인">
-
-</form>
-<h3>자기 소개서 작성</h3>
+예제4
+<p>
+예제4입니다. 
+<p>
+다음 줄 입니다.
 <hr>
-<form>
-이름 : <input type="text" value=""><br>
-암호 : <input type="password" value="" maxlength="4"><br>
-자소서 : <br> 
-<textarea cols=70 rows=10></textarea>
-
-</form>
-
-<h2> 계산기 </h2>
-<script>
-function fsum()  {
-form1.result.value = "Sum Res" ;
-}
-function fsub()  {
-var n1 = form1.num1.value;
-var n2 = form1.num2.value;
-var res = Number(n1) - Number(n2);
-form1.result.value = res;
-}
-
-</script>
-<form name="form1"> 
-숫자1: <input type = "text" size="2" name ="num1"><br>
-숫자2: <input type = "text" size="2" name="num2" ><br>
-<input type ="button" value="+" onClick="fsum()">
-<br>
-<input type ="button" value="-" onClick="fsub()">
-<br>
-<input type ="button" value="x">
-<input type ="button" value="÷">
-
-<br>
-결과: <input type = "text" size = "5" name="result">
-
-</form>
-
-<h3>마우스 올려 보세요</h3>
+<p>종료 태그 &lt;/hr&gt;를 사용하지 않습니다.</p>
 <hr>
-<img src="media/apple.png" alt="이미지"
-	onmouseover="this.src='media/banana.png'"
-	onmouseout="this.src='media/apple.png'">
+
+예제 6 <br><br><br>
+p태그 and br 태그의 차이?는 br은 개수만큼 줄 바꿈,<br> p는 한번만 바꿈<br><br>
+
+예제7
+&copy;  
+&divide;
+&sum; <br>
+10 &divide; 2 = 5<br>
+&radic;2 = 1.414<br>
+2 &nbsp;&nbsp; &lt; &nbsp;&nbsp;&nbsp; 3<br>
+오늘 &quot;Elvis&#34; 노래를 들었다.
+<hr>
+<p>
+<b>진하게</b><br>
+<strong>중요한</strong><br>
+<em>강조</em><br>
+<i>이탤릭으로 강조</i><br>
+<b><i>진하게 이탤릭으로 강조</i></b><br>
+보통 문자 <small>한 단계 작은 문자</small><br>
+<del>삭제</del><br>
+<ins>추가</ins><br>
+보통문자의 <sup>윗첨자</sup><br>
+보통문자의 <sub>아래첨자</sub><br>
+<mark>하이라이팅</mark><br>
+</p>
+<p> 엘비스 프레슬리의 사진입니다.</p>
+<img src="space.jpg" width="300" height="200"
+
+alt="space">
+
+<img src="media/kitae.jpg" width="80" height="100"
+
+alt="황기태사진없음">
+
+<img src="http://img.naver.net/static/www/u/2013/0731/nmms_224940510.gif"
+
+alt=“사진 주소 변경됨" width="100" height="100">d
+
+<ol type="A" >
+	<li>451</li>
+	<li>563</li>
+	<li>secondary dominant</li>
+	<li>2516</li>
+</ol>
+
+<ul>
+	<li>neapolitan sixth
+	<li> german augmented sixth
+</ul>
+
+<ul>
+	<li>Harmonic Progressions
+		<ul>
+			<li>251
+			<li>2516
+			<li>451
+		</ul>
+			<li>Transpose
+		<ol type="1" >
+			<li>Whole tone	
+			<li>Chromatic
+			<li>Enharmonic
+			<li>modes
+		</ol>
+	<li>Recapitulation
+	<li>Coda
+</ul>
+
+<h2> 예제 표 실습 </h2>
+<table border = 1>
+ <tr>
+    <td> 데이터1 </td>
+
+<h2> 하이퍼링크 만들기 </h2>
+<a href = "https://www.naver.com/"> 네이버
+
 </body>
 </html>
